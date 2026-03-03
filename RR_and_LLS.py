@@ -116,9 +116,11 @@ def RidgeRegressionExperiment500(X, y, m, lambdas):
 
 
 
+
 # Helper functions
 def mse(X, y, w):
     return np.mean((X @ w - y) ** 2)
+
 
 # main function
 if __name__ == '__main__':
